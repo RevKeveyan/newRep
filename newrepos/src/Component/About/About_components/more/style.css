@@ -1,0 +1,21 @@
+.rest{
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.rest_title{
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: #1A6692;
+    margin-bottom: 30px;
+    display: block;
+    margin-left: 50px;
+   
+}
+.rest_descr{
+    margin-left: 50px;   
+    color: #626364;
+    line-height: 1.8;
+}
+

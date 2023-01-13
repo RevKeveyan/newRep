@@ -2,6 +2,8 @@
 import React, { Component } from "react";
 import Logo from "../../../../assets/img/logo.png";
 import MainBg from "../../../../assets/img/mainbg.jpg";
+import {Link,NavLink} from "react-router-dom";
+
 import './style.css';
 
 
@@ -10,6 +12,7 @@ export class Header extends Component {
     state = {
         bgImg : MainBg,
         pages : ['Home','About', 'Contact'],
+        path : ['home', 'about', 'contact'],
         logo : {
             logoImg : Logo,
             title : "Simple House",
@@ -30,9 +33,13 @@ export class Header extends Component {
                         </div>
                     </div>
                 <ul className="menu_links">
-                    <li>{this.state.pages[0]}</li>
-                    <li>{this.state.pages[0]}</li>
-                    <li>{this.state.pages[0]}</li>
+                    {this.state.pages.map((elem, index)=>{
+                        return <li key={index}>
+                        <Link to={'/'+this.state.path[index]}>
+                            {elem}
+                        </Link>
+                        </li>
+                    })}
                 </ul>
             </div>
             </div>

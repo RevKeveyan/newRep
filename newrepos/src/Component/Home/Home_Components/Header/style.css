@@ -15,7 +15,10 @@ body{
     width: 100%;
     background: url('../../../../assets/img/mainbg.jpg') center center/cover no-repeat ;
     margin-bottom: 80px;
-
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
@@ -44,13 +47,14 @@ body{
     justify-content: space-between;
     padding-right: 50px;
 }
-.menu_links li{
+.menu_links li a{
     text-decoration: none;
     color: white;
     padding-bottom: 10px;
     font-size: 20px;
+    line-height: 20px;
 }
-.menu_links li:hover{
+.menu_links li a:hover{
     border-bottom: 1px solid white;
 }
 .title{
