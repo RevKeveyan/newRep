@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.menu{
+    background-color: silver;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+}
+.menu ul li{
+    margin: 10px 20px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+.menu ul li:hover{
+    color: blue;
+}
+.active{
+    color: red!important;
+}
