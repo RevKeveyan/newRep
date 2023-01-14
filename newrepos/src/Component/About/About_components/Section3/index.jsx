@@ -5,8 +5,10 @@ import Cup from '../../../../assets/icons/cup.png'
 import Plant from '../../../../assets/icons/plant.png'
 
 export class Read extends Component {
-
-    state = {
+    constructor(props){
+        super(props);
+      
+    this.state = {
         read : [{
             icon : Pep,
             name : "Pepper",
@@ -26,7 +28,7 @@ export class Read extends Component {
 
         
     }
-
+    }
     render (){
         return <div className="read">
             {this.state.read.map((elem, index) =>{

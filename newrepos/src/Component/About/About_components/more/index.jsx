@@ -3,7 +3,10 @@ import './style.css'
 import Rest from '../../../../assets/img/7.jpg'
 
 export class AboutRest extends Component{
-    state = {
+    constructor(props){
+        super(props);
+      
+    this.state = {
         about : {
             img : Rest,
             title : 'History of our restaurant',
@@ -11,6 +14,7 @@ export class AboutRest extends Component{
             descr2 : ' Phasellus dui velit, feugiat sed elit ut, facilisis aliquam metus. Ut id bibendum erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas interdum porttitor imperdiet. Integer facilisis.'
         }
     }
+}
 
     render () {
         return <>

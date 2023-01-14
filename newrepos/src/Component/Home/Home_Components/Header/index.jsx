@@ -9,7 +9,10 @@ import './style.css';
 
 
 export class Header extends Component {
-    state = {
+    constructor(props){
+        super(props);
+      
+    this.state = {
         bgImg : MainBg,
         pages : ['Home','About', 'Contact'],
         path : ['home', 'about', 'contact'],
@@ -19,7 +22,7 @@ export class Header extends Component {
             subtitle : "new restaurant template",
         },
     }
-
+    }
 
     render (){
         return <>

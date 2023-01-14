@@ -10,8 +10,10 @@ import Flor from "../../../../assets/img/3.jpg";
 import Val from "../../../../assets/img/4.jpg";
 
 export class Users extends Component {
-
-    state = {
+    constructor(props){
+        super(props);
+      
+    this.state = {
         User : [
             {
                 img : Jen,
@@ -109,7 +111,7 @@ export class Users extends Component {
             },
         ]
     }
-
+    }
     render () {
         return <>
             <div className="social">

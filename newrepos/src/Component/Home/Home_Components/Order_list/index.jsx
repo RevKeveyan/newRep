@@ -11,7 +11,9 @@ import Noodle2 from "../../../../assets/images/7.jpg";
 import "./style.css";
 
 export class List extends Component{
-    state = {
+    constructor(props){
+        super(props);
+    this.state = {
         buttons : ['Pizza','Salad', 'Noodle'],
         list : [
             {
@@ -109,6 +111,7 @@ export class List extends Component{
         list2 : [],
         name : "Pizza",
     }
+}
     componentDidMount(){
         this.setState({list2 : this.state.list.filter(x=>x.type === this.state.name)})
     }
