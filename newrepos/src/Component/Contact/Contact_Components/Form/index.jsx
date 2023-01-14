@@ -4,7 +4,6 @@ import Facebook from "../../../../assets/icons/facabook.png"
 import YouTube from "../../../../assets/icons/youtube.png"
 import Insta from "../../../../assets/icons/insta.png"
 import Twitter from "../../../../assets/icons/twit.png"
-import Arrow from "../../../../assets/icons/arrow.png"
 import Phone from "../../../../assets/icons/phone.png"
 import Email from "../../../../assets/icons/email.png"
 
