@@ -1,6 +1,6 @@
-import { Home } from "./Component/Home";
-import { About } from "./Component/About";
-import { Contact } from "./Component/Contact";
+import { Home } from "./Pages/Home";
+import { About } from "./Pages/About";
+import { Contact } from "./Pages/Contact";
 import {Routes,Route} from "react-router-dom";
 
 
