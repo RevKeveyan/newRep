@@ -2,7 +2,7 @@
 import React, { Component } from "react";
 import Logo from "../../../assets/img/logo.png";
 import MainBg from "../../../assets/img/mainbg.jpg";
-import {Link,NavLink} from "react-router-dom";
+import {NavLink} from "react-router-dom";
 
 import './style.css';
 

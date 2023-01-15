@@ -3,13 +3,13 @@ import './style.css'
 export class Products extends Component{
 
     render() {
-        const {img,title,description,price,key} = this.props
+        const {img,title,description,price} = this.props
 
-        return <div key={key}>
+        return <div>
             <img src={img} alt="nkar"/>
-            <h2>{title}</h2>
-            <p>{description}</p>
-            <span>{price}</span>
+            <h2 className="list_title">{title}</h2>
+            <p className="list_descr">{description}</p>
+            <span className="list_price">{price}</span>
         </div>
     }
 }
