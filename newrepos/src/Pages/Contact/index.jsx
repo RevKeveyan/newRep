@@ -1,17 +1,14 @@
 import React, { Component } from "react";
 import './style.css'
-import { Header } from "../../Component/Home_Components/Header";
 // import { AboutCont } from "../Contact/Contact_Components/About_page"
 import { Form } from "../../Component/Contact_Components/Form"
 import { Map } from "../../Component/Contact_Components/Map"
 import { FAQ } from "../../Component/Contact_Components/FAQ"
-import { Footer } from "../../Component/Home_Components/footer";
 import {MainText} from "../../Component/Main-text";
 
 export class Contact extends Component{
     render (){
         return <>
-            <Header/>
             {/* <PageDescr/> */}
             {/*<AboutCont/>*/}
             <MainText
@@ -20,7 +17,6 @@ export class Contact extends Component{
             <Form/>
             <Map/>
             <FAQ/>
-            <Footer/>
             </>
     }
 

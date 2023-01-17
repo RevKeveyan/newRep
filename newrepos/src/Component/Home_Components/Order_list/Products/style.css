@@ -19,6 +19,7 @@
     color: #1A6692;
     margin-bottom: 15px;
     margin-top: 5px;
+    text-align: center;
 }
 .list_descr{
     text-align: left;
@@ -26,10 +27,12 @@
     margin-top: 10px;
 }
 .list_price{
-   text-align: left;
+   text-align: center;
    color:#2F956D;
    line-height: 40px;
+   
 }
+
 
 .lists div img{
     width: 100%;

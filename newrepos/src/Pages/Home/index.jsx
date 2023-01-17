@@ -1,9 +1,7 @@
 import React, { Component } from "react";
-import { Header } from "../../Component/Home_Components/Header";
 // import { AboutPage } from "./Home_Components/About_page";
 import { List } from "../../Component/Home_Components/Order_list";
 import { SectionAbout } from "../../Component/Home_Components/section_about";
-import { Footer } from "../../Component/Home_Components/footer";
 import Avo from "../../assets/images/avo.jpg";
 
 import "./style.css";
@@ -14,7 +12,6 @@ export class Home extends Component{
 
     render (){
         return <>
-        <Header/>
         {/*<AboutPage/>*/}
         <MainText
             title={"Welcome to Simple House"}
@@ -25,7 +22,6 @@ export class Home extends Component{
             title = {'Maecenas nulla neque'}
             descr = {'Phasellus dui velit, feugiat sed elit ut, facilisis aliquam metus. Ut id bibendum erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas interdum porttitor imperdiet. Integer facilisis.'}
         />
-        <Footer/>
         </>
     }
 
